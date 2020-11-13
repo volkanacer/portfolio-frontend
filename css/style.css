@@ -25,11 +25,11 @@ p {
 /*Navigatie bar style*/
 
 a {
-    color: white;
+    color: black;
     font-weight: 100;
     letter-spacing: 2px;
     text-decoration: none;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
     padding: 20px 5px;
     display: inline-block;
     width: 100%;
@@ -38,7 +38,8 @@ a {
 }
 
 a:hover {
-    background: rgba(0,0,0,0.3);
+    background: black;
+    color: white;
 }
 
 .navBar {
